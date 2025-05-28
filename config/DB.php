@@ -1,7 +1,7 @@
 <?php
     class DB{
         public static function conectar(){
-            $url="mysql: host=localhost; dbname=ventasdbsenati";
+            $url="mysql: host=localhost; dbname=ventassenatidb";
             $user="root";
             $password="";
             $cn=new PDO($url, $user, $password);
