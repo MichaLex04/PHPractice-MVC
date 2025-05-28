@@ -3,7 +3,7 @@
     class FamiliaController{
         public function cargar(){
             $model=new FamiliaModel();
-            $familias=$model->cargar();
+            $familia=$model->cargar();
             require './view/viewCargarFamilias.php';
         }
 

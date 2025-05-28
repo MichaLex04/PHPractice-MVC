@@ -3,7 +3,7 @@
     class ProveedorController{
         public function cargar(){
             $model=new ProveedorModel();
-            $Proveedor=$model->cargar();
+            $proveedor=$model->cargar();
             require './view/viewCargarProveedor.php';
         }
 
